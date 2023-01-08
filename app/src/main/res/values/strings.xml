@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SneakerApp</string>
+    <string name="sneakership">Sneakership</string>
+    <string name="sort_by">Sort by</string>
+    <string name="popular">Popular</string>
+    <string name="size_uk">Size (uk):</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="color">Color:</string>
+    <string name="cart">Cart</string>
+    <string name="order_details">Order details</string>
+    <string name="subtotal_s">Subtotal: $%s</string>
+    <string name="taxes_and_charges_s">Taxes and Charges : $%s</string>
+    <string name="total_s">Total: $%s</string>
+    <string name="check_out">$Check Out</string>
+    <string name="name">Name</string>
+    <string name="item_added">%s added to Cart</string>
+    <string name="item_removed">%s removed from Cart</string>
+    <string name="price_">Price: $ %s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
