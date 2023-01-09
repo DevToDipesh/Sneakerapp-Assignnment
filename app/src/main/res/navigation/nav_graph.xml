@@ -55,5 +55,14 @@
         android:id="@+id/searchFragment"
         android:name="com.cricbuzz.assignment.dipesh.sneakerapp.search.ui.SearchFragment"
         android:label="fragment_search"
-        tools:layout="@layout/fragment_search" />
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_sneakerDetailFragment"
+            app:destination="@id/sneakerDetailFragment">
+            <argument
+                android:name="sneakerId"
+                app:argType="string"
+                android:defaultValue="" />
+        </action>
+    </fragment>
 </navigation>

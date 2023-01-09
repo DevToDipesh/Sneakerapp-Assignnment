@@ -92,7 +92,7 @@ class SearchFragment : Fragment() {
                 val bundle = Bundle().apply {
                     putString("sneakerId", item.id)
                 }
-                navController.navigate(R.id.action_homeFragment_to_sneakerDetailFragment, bundle)
+                navController.navigate(R.id.action_searchFragment_to_sneakerDetailFragment, bundle)
             } else {
                 activity?.let { viewModel.addToCart(it, item) }
             }
